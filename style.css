@@ -22,6 +22,6 @@
   -ms-user-select: none; /* Impede a seleção no Internet Explorer e Microsoft Edge */
 }
 
-body {
+body,html {
   overflow-x: hidden;
 }
