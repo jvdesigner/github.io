@@ -1,0 +1,27 @@
+.swiper-slide {
+  min-width: 140px;
+  opacity: 0.9 !important;
+  transition: transform 1s;
+}
+
+.swiper-slide:hover {
+  transform: scale(1.05) !important;
+
+  opacity: 1 !important;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+* {
+  user-select: none;
+  -webkit-touch-callout: none; /* Impede o menu de contexto de dispositivos móveis */
+  -webkit-user-drag: none; /* Impede o arrastar de elementos no WebKit */
+  -moz-user-select: none; /* Impede a seleção no Firefox */
+  -ms-user-select: none; /* Impede a seleção no Internet Explorer e Microsoft Edge */
+}
+
+body {
+  overflow-x: hidden;
+}
